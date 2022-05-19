@@ -1,0 +1,31 @@
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+#foundation-name {
+    color: rgb(207, 149, 41);
+}
+
+.navbar {
+    position: sticky;
+    top: 0rem;
+    background-color: white;
+    padding: 10px 10px;
+    z-index: 999;
+}
+
+#nav-link {
+    color: rgb(207, 149, 41);
+    font-size: 15px;
+}
+
+.brand-box {
+    padding-left: 40px;
+}
+
+#logo {
+    margin-top: -5px;
+    max-height: 30px;
+}
