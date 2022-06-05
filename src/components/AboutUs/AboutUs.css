@@ -1,7 +1,9 @@
+.about-us {
+  background:rgba(50, 48, 48, 0.04) ;
+}
 .heading-section {
-  padding-bottom: 1em;
-  margin-bottom: 2em;
-  background: rgba(0, 0, 0, 0.04);
+  padding-bottom: 2em;
+  background: whitesmoke;
 }
 
 .heading-section h3 {
@@ -26,11 +28,7 @@
 }
 
 .heading-section p {
-  font-size: 20px;
-}
-
-#about {
-  
+  font-size: 22px;
 }
 
 #who-we-are {
