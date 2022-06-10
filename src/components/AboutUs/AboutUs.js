@@ -1,14 +1,12 @@
 import React from "react";
 import "./AboutUs.css";
+import OurGoals from "./OurGoals";
 
 const AboutUs = () => {
   return (
     <div className="about-us">
       <div className="heading-section">
         <h3>About us</h3>
-        <p>
-          Foundation for improving education outcome of the needy student (FIEN)
-        </p>
       </div>
       <div>
         <div id="about">
@@ -16,40 +14,19 @@ const AboutUs = () => {
             <div class="container-fluid">
               <div class="row">
                 <div class="col-xs-12 col-md-6 about-img"></div>
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-6 about-content">
                   <div class="section-title">
-                    <h2>Who are we?</h2>
+                    <h2>Who we are</h2>
                   </div>
                   <div className="section-text">
+                    <p>
+                      Foundation for improving education outcome of the needy
+                      student (FIEN)
+                    </p>
                     <p>
                       We seek a nation where every needy student has an
                       opportunity to achieve a better education outcome
                     </p>
-                    <p>Our long term objectives include:</p>
-                    <ol>
-                      <li>
-                        To strengthen leadership skills and facilitate the
-                        conduct of counselling and career guidance to students
-                      </li>
-                      <li>
-                        To provide financial aid to needy students for transport
-                        fare, health insurance, stationery, school uniforms and
-                        sanitization towels for girls so that they can raise
-                        their classroom attendance rate
-                      </li>
-                      <li>
-                        To facilitate the availability of internship, project
-                        work and teacher exchange programs aiming at sharing
-                        experiences and expertise
-                      </li>
-                      <li>
-                        To advocate for teaching improvement and digital
-                        learning
-                      </li>
-                      <li>
-                        To promote volunteerism spirit for community works
-                      </li>
-                    </ol>
                   </div>
                 </div>
               </div>
@@ -57,13 +34,14 @@ const AboutUs = () => {
 
             <br />
             <br />
+            <OurGoals />
           </div>
           <div id="where-are-we">
             <div class="row">
-              <div class="col-xs-12 col-md-6">
+              <div class="col-xs-12 col-md-6 location-content">
                 <div className="container-fluid">
                   <div className="section-title2">
-                    <h2>Where are we?</h2>
+                    <h2>Where we are</h2>
                   </div>
                   <div className="section-text2">
                     <p>

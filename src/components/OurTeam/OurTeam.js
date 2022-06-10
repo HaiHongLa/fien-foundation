@@ -6,6 +6,7 @@ import LN from '../../assets/img/team/LWIZA NSUMBA.png'
 import MC from '../../assets/img/team/MARIA CHARLES.png'
 import NS from '../../assets/img/team/NESTORY SALIKA.png'
 import SS from '../../assets/img/team/SWIDEFRIDA SAKIA.png'
+import BM from '../../assets/img/team/BERTHA MBUYA.png'
 
 
 const OurTeam = () => {
@@ -70,6 +71,15 @@ const OurTeam = () => {
               </figure>
               <h3>Swidefrida Sakia</h3>
               <p>Chief of Finance</p>
+            </div>
+          </li>
+          <li class="col-12 col-md-6 col-lg-3">
+            <div class="cnt-block equal-hight" style={{ height: "349px" }}>
+              <figure>
+                <img src={BM} class="img-responsive" alt="" />
+              </figure>
+              <h3>Bertha Mbuya</h3>
+              <p>Director of Inclusive Education</p>
             </div>
           </li>
         </ul>

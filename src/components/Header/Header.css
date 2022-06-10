@@ -1,11 +1,10 @@
 .navbar-brand {
     font-size: 22px;
     font-weight: 600;
-    padding-bottom: 20px;
 }
 
 #foundation-name {
-    color: rgb(207, 149, 41);
+    color: black;
 }
 
 .navbar {
@@ -16,8 +15,13 @@
     z-index: 999;
 }
 
+.navbar-default {
+    border-color: white;
+    padding: 10px 10px;
+}
+
 #nav-link {
-    color: rgb(207, 149, 41);
+    color: black;
     font-size: 15px;
 }
 
