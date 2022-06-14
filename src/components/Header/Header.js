@@ -17,12 +17,14 @@ const Header = () => {
               data-toggle="collapse"
               data-target="#bs-example-navbar-collapse-1"
               aria-expanded="false"
+              aria-controls="navbar"
             >
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+
             <div className="brand-box">
               <a class="navbar-brand" href="#">
                 <img id="logo" alt="Brand" src={logo} />
@@ -32,12 +34,11 @@ const Header = () => {
               </a>
             </div>
           </div>
-
+          
           <div
             class="collapse navbar-collapse"
             id="bs-example-navbar-collapse-1"
           >
-            <ul class="nav navbar-nav"></ul>
             <ul class="nav navbar-nav navbar-right">
               <li>
                 <a id="nav-link" href="#">
@@ -64,7 +65,6 @@ const Header = () => {
                   Students' Stories
                 </a>
               </li>
-
               <li>
                 <a id="nav-link" href="#">
                   Programs

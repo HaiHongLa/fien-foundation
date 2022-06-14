@@ -12,7 +12,7 @@ const OurGoals = () => {
       </div>
       <div class="container">
         <div class="row text-center">
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-4 col-sm-6">
             <div class="services animate-box">
               <span>
                 <i class="fa fa-users fa-lg"></i>
@@ -24,7 +24,7 @@ const OurGoals = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-4 col-sm-6">
             <div class="services animate-box">
               <span>
                 <i class="fa fa-money fa-lg"></i>
@@ -38,7 +38,7 @@ const OurGoals = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-4 col-sm-6">
             <div class="services animate-box">
               <span>
                 <i class="fa fa-briefcase fa-lg"></i>
@@ -51,7 +51,7 @@ const OurGoals = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-4 col-sm-6">
             <div class="services animate-box">
               <span>
                 <i class="fa fa-graduation-cap fa-lg"></i>
@@ -60,7 +60,7 @@ const OurGoals = () => {
               <p>To advocate for teaching improvement and digital learning</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-4 col-sm-6">
             <div class="services animate-box">
               <span>
                 <i class="fa fa-heart fa-lg"></i>

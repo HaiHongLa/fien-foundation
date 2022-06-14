@@ -1,9 +1,9 @@
 .about-us {
-  background:rgba(50, 48, 48, 0.04) ;
+  background:white;
 }
 .heading-section {
   padding-bottom: 2em;
-  background: whitesmoke;
+  background: white;
 }
 
 .heading-section h3 {
@@ -11,7 +11,7 @@
   font-weight: 300;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
-  color: #5a5a5a;
+  color: black;
   padding-top: 50px;
   margin: 0 0 30px 0;
 }
@@ -32,7 +32,7 @@
 }
 
 #who-we-are {
-    background: rgba(17, 17, 17, 0.863);
+    background: whitesmoke;
     max-height: 500px;
     background-size: cover;
 }
@@ -51,23 +51,22 @@
 .about-content {
   align-items: center;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 3em;
 }
 
 .section-text {
-  text-align: left;
+  justify-content: center;
+  text-align: center;
   font-size: 18px;
-  color: whitesmoke;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 10px;
   line-height: 1.7;
 }
 
-
-
 .section-title h2 {
   font-weight: 600;
-  color: whitesmoke;
+  color:black;
   padding-bottom: 15px;
 }
 

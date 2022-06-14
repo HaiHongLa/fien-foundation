@@ -1,10 +1,13 @@
+.objectives-section {
+  padding-top: 2em;
+}
+
 .mission-title {
-    padding: 10px 10px;
-    color: #5a5a5a;
+  padding: 10px 10px;
+  color: #5a5a5a;
 }
 
 .services {
-  background: black;
   background: #fff;
   padding: 40px 20px 20px 20px;
   margin-bottom: 30px;
@@ -14,7 +17,9 @@
   transition: 0.3s;
   height: 275px;
 }
-.services:hover, .services:focus, .services:active {
+.services:hover,
+.services:focus,
+.services:active {
   -webkit-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
