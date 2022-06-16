@@ -1,14 +1,21 @@
-import './App.css';
-import AboutUs from './components/AboutUs/AboutUs';
-import Header from './components/Header/Header';
-import OurTeam from './components/OurTeam/OurTeam';
+import "./App.css";
+import Header from "./components/Header/Header";
+import { Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import BlogPage from "./pages/BlogPage";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <AboutUs />
-      <OurTeam />
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="/blog" exact>
+          <BlogPage />
+        </Route>
+      </Switch>
     </div>
   );
 }

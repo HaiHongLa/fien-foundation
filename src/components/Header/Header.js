@@ -74,7 +74,6 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <Intro />
     </React.Fragment>
   );
 };
