@@ -50,7 +50,7 @@ const OurTeam = () => {
                 <img src={LN} class="img-responsive" alt="" />
               </figure>
               <h3>Lwisza Nsumba</h3>
-              <p>Scholars Program</p>
+              <p>Director of Scholars Program</p>
             </div>
           </li>
         </ul>
@@ -61,7 +61,7 @@ const OurTeam = () => {
                 <img src={NS} class="img-responsive" alt="" />
               </figure>
               <h3>Nestory Salika</h3>
-              <p>Director of Digital Teaching</p>
+              <p>Director of Digital Teachers Exchange Program</p>
             </div>
           </li>
           <li class="col-12 col-md-6 col-lg-3">

@@ -3,6 +3,7 @@ import "./Header.css";
 import HeaderTop from "./HeaderTop";
 import logo from "../../assets/img/fien-logo.png";
 import Intro from "./Intro";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -34,7 +35,7 @@ const Header = () => {
               </a>
             </div>
           </div>
-          
+
           <div
             class="collapse navbar-collapse"
             id="bs-example-navbar-collapse-1"
@@ -61,9 +62,9 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a id="nav-link" href="#">
-                  Students' Stories
-                </a>
+                <NavLink to="/blog" className='nav-link'>
+                    Students' Stories
+                </NavLink>
               </li>
               <li>
                 <a id="nav-link" href="#">
