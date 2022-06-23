@@ -1,8 +1,18 @@
+#about-us {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+
 .about-us {
   background:white;
 }
+
+
 .heading-section {
-  padding-bottom: 2em;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
   background: white;
 }
 
@@ -19,7 +29,7 @@
 .heading-section h3::after {
   position: absolute;
   content: "";
-  background: #ff5722;
+  background: #05cea6;
   height: 2px;
   width: 100px;
   bottom: -6px;

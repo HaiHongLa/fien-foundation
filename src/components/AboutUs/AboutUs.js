@@ -5,6 +5,7 @@ import OurGoals from "./OurGoals";
 const AboutUs = () => {
   return (
     <div className="about-us">
+      <div id="about-us"></div>
       <div className="heading-section">
         <h3>About us</h3>
       </div>

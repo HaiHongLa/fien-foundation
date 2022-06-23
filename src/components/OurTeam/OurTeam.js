@@ -11,7 +11,8 @@ import BM from '../../assets/img/team/BERTHA MBUYA.png'
 
 const OurTeam = () => {
   return (
-    <section class="our-team padding-lg">
+    <section id="team" class="our-team padding-lg">
+      <div id="our-team"></div>
       <div class="container">
         <div class="row heading heading-icon">
           <h2>Meet our team</h2>

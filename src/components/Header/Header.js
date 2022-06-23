@@ -2,8 +2,6 @@ import React from "react";
 import "./Header.css";
 import HeaderTop from "./HeaderTop";
 import logo from "../../assets/img/fien-logo.png";
-import Intro from "./Intro";
-import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -27,7 +25,7 @@ const Header = () => {
             </button>
 
             <div className="brand-box">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="/">
                 <img id="logo" alt="Brand" src={logo} />
               </a>
               <a id="foundation-name" class="navbar-brand" href="#">
@@ -42,17 +40,17 @@ const Header = () => {
           >
             <ul class="nav navbar-nav navbar-right">
               <li>
-                <a id="nav-link" href="#">
+                <a id="nav-link" href="/">
                   Home
                 </a>
               </li>
               <li>
-                <a id="nav-link" href="#">
+                <a id="nav-link" href="#about-us">
                   About us
                 </a>
               </li>
               <li>
-                <a id="nav-link" href="#">
+                <a id="nav-link" href="#our-team">
                   Our Team
                 </a>
               </li>
@@ -62,9 +60,9 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <NavLink to="/blog" className='nav-link'>
-                    Students' Stories
-                </NavLink>
+                <a id="nav-link" href="/blog">
+                  Students' Stories
+                </a>
               </li>
               <li>
                 <a id="nav-link" href="#">

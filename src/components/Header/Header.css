@@ -1,35 +1,40 @@
 .navbar-brand {
-    font-size: 22px;
-    font-weight: 600;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 #foundation-name {
-    color: black;
+  color: black;
 }
 
 .navbar {
-    position: sticky;
-    top: 0rem;
-    background-color: white;
-    padding: 10px 10px;
-    z-index: 999;
+  position: sticky;
+  top: 0rem;
+  background-color: white;
+  padding: 10px 10px;
+  z-index: 999;
 }
 
 .navbar-default {
-    border-color: white;
-    padding: 10px 10px;
+  border-color: white;
+  padding: 10px 10px;
 }
 
 #nav-link {
-    color: black;
-    font-size: 15px;
+  color: black;
+  font-size: 15px;
+}
+
+#nav-link:hover {
+  color: #05cea6;
+  transition: 0.5s;
 }
 
 .brand-box {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 #logo {
-    margin-top: -5px;
-    max-height: 30px;
+  margin-top: -5px;
+  max-height: 30px;
 }
