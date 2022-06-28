@@ -5,7 +5,7 @@ const Blog = () => {
   const blog = (
     <div className="row row-bottom-padded-md">
       {Posts.map((post) => (
-        <div className="col-lg-4 col-md-4 col-sm-6">
+        <div className="col-lg-4 col-md-4 col-sm-6" key={post.id}>
           <div class="blog animate-box">
             <a href="#">
               <img class="img-responsive" src={post.img} alt="" />
@@ -18,7 +18,7 @@ const Blog = () => {
                 <span class="posted_by">{post.date}</span>
                 <p>{post.content.slice(0, 120) + "..."}</p>
                 <p>
-                  <a href="#">Learn More...</a>
+                  <a href={`/blog/` + post.id}>Learn More...</a>
                 </p>
               </div>
             </div>

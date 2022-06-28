@@ -45,17 +45,17 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a id="nav-link" href="#about-us">
+                <a id="nav-link" href="/#about-us">
                   About us
                 </a>
               </li>
               <li>
-                <a id="nav-link" href="#our-team">
+                <a id="nav-link" href="/#our-team">
                   Our Team
                 </a>
               </li>
               <li>
-                <a id="nav-link" href="#">
+                <a id="nav-link" href="/#">
                   Volunteering/Internship
                 </a>
               </li>
@@ -65,7 +65,7 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a id="nav-link" href="#">
+                <a id="nav-link" href="/#">
                   Programs
                 </a>
               </li>
