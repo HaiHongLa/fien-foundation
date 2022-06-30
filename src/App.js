@@ -4,6 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import BlogPage from "./pages/BlogPage";
 import BlogPostPage from "./pages/BlogPostPage";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <BlogPostPage/>
         </Route>
       </Switch>
+      <Footer/>
     </div>
   );
 }

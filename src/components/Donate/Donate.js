@@ -13,7 +13,8 @@ const Donate = () => {
                 <iframe
                   class="donate-page"
                   src="https://www.givingway.com/donate/fien-foundation"
-                  frameborder="0"
+                  frameBorder="0"
+                  title='givingway'
                 ></iframe>
               </div>
             </div>

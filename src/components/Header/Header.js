@@ -28,7 +28,7 @@ const Header = () => {
               <a class="navbar-brand" href="/">
                 <img id="logo" alt="Brand" src={logo} />
               </a>
-              <a id="foundation-name" class="navbar-brand" href="#">
+              <a id="foundation-name" class="navbar-brand" href="/">
                 FIEN Foundation
               </a>
             </div>
@@ -45,7 +45,7 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a id="nav-link" href="/#about-us">
+                <a id="nav-link" href="#about-us">
                   About us
                 </a>
               </li>
