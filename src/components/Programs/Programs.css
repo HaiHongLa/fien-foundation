@@ -1,0 +1,14 @@
+#programs img {
+    width: 100%;
+}
+
+#programs .container {
+    max-width: 900px;
+}
+.carousel-indicators li {
+    background-color: #05cea6;
+}
+
+.carousel-indicators .active {
+    background-color: white;
+}

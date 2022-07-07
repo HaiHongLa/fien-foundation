@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import BlogPage from "./pages/BlogPage";
 import BlogPostPage from "./pages/BlogPostPage";
 import Footer from "./components/Footer/Footer";
+import ProgramsPage from "./pages/ProgramsPage";
 
 function App() {
   return (
@@ -17,11 +18,14 @@ function App() {
         <Route path="/blog" exact>
           <BlogPage />
         </Route>
-        <Route path='/blog/:postId'>
-          <BlogPostPage/>
+        <Route path="/blog/:postId">
+          <BlogPostPage />
+        </Route>
+        <Route path="/programs" exact>
+          <ProgramsPage />
         </Route>
       </Switch>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
