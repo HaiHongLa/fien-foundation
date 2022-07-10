@@ -27,10 +27,10 @@ const Footer = () => {
               <a href="/blog">Student's stories</a>
             </li>
             <li class="list-inline-item">
-              <a href="/">Volunteer/Internship</a>
+              <a href="/careers">Volunteer/Internship</a>
             </li>
             <li class="list-inline-item">
-              <a href="/">Programs</a>
+              <a href="/programs">Programs</a>
             </li>
           </ul>
           <p class="copyright">FIEN Foundation © 2022</p>

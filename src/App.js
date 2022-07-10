@@ -6,6 +6,7 @@ import BlogPage from "./pages/BlogPage";
 import BlogPostPage from "./pages/BlogPostPage";
 import Footer from "./components/Footer/Footer";
 import ProgramsPage from "./pages/ProgramsPage";
+import CareersPage from "./pages/CareersPage";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path="/programs" exact>
           <ProgramsPage />
+        </Route>
+        <Route path="/careers" exact>
+          <CareersPage />
         </Route>
       </Switch>
       <Footer />

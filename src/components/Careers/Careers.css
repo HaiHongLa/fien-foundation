@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+
+#careers {
+  background-image: url("../../assets/img/internship.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 800px;
+}
+
+.careers-content {
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.822);
+  width: 80%;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+}
+
+.careers-content h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.careers-content h2 {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.careers-content li {
+  list-style-position: inside;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.careers-content ol > li {
+  font-size: 20px;
+}
+
+.careers-content h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 18px;
+  margin-bottom: 10px;
+}
+
+.careers-content p {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.careers-content ul > li {
+  margin-left: 25px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  list-style: disc;
+}

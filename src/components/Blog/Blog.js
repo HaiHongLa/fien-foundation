@@ -7,13 +7,13 @@ const Blog = () => {
       {Posts.map((post) => (
         <div className="col-lg-4 col-md-4 col-sm-6" key={post.id}>
           <div class="blog animate-box">
-            <a href="#">
+            <a href={`/blog/` + post.id}>
               <img class="img-responsive" src={post.img} alt="" />
             </a>
             <div class="blog-text">
               <div class="prod-title">
                 <h3>
-                  <a href="">{post.title}</a>
+                  <a href={`/blog/` + post.id}>{post.title}</a>
                 </h3>
                 <span class="posted_by">{post.date}</span>
                 <p>{post.content.slice(0, 120) + "..."}</p>
