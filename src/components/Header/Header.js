@@ -7,38 +7,38 @@ const Header = () => {
   return (
     <React.Fragment>
       <HeaderTop />
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
+      <nav className="navbar navbar-default">
+        <div className="container-fluid">
+          <div className="navbar-header">
             <button
               type="button"
-              class="navbar-toggle collapsed"
+              className="navbar-toggle collapsed"
               data-toggle="collapse"
               data-target="#bs-example-navbar-collapse-1"
               aria-expanded="false"
               aria-controls="navbar"
             >
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+              <span className="sr-only">Toggle navigation</span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
             </button>
 
             <div className="brand-box">
-              <a class="navbar-brand" href="/">
+              <a className="navbar-brand" href="/">
                 <img id="logo" alt="Brand" src={logo} />
               </a>
-              <a id="foundation-name" class="navbar-brand" href="/">
+              <a id="foundation-name" className="navbar-brand" href="/">
                 FIEN Foundation
               </a>
             </div>
           </div>
 
           <div
-            class="collapse navbar-collapse"
+            className="collapse navbar-collapse"
             id="bs-example-navbar-collapse-1"
           >
-            <ul class="nav navbar-nav navbar-right">
+            <ul className="nav navbar-nav navbar-right">
               <li>
                 <a id="nav-link" href="/">
                   Home

@@ -7,6 +7,7 @@ import BlogPostPage from "./pages/BlogPostPage";
 import Footer from "./components/Footer/Footer";
 import ProgramsPage from "./pages/ProgramsPage";
 import CareersPage from "./pages/CareersPage";
+import ProgramPostPage from "./pages/ProgramPage";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/programs" exact>
           <ProgramsPage />
+        </Route>
+        <Route path='/programs/:programId' exact>
+          <ProgramPostPage />
         </Route>
         <Route path="/careers" exact>
           <CareersPage />

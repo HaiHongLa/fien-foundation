@@ -1,21 +1,44 @@
+import { useEffect } from "react";
+import { useState } from "react";
 import "./Blog.css";
-import Posts from "./Posts";
 
 const Blog = () => {
+  const [posts, setPosts] = useState([])
+  async function blogHandler() {
+    try {
+      const response = await fetch("http://127.0.0.1:8000/blog/");
+      if (!response.ok) {
+        throw new Error("An error occurred");
+      }
+      const data = await response.json();
+      setPosts(data)
+    } catch (error) {
+      console.log(error.message);
+    }
+  }
+  useEffect(() => {
+    blogHandler()
+  }, []);
+
+  
   const blog = (
     <div className="row row-bottom-padded-md">
-      {Posts.map((post) => (
-        <div className="col-lg-4 col-md-4 col-sm-6" key={post.id}>
-          <div class="blog animate-box">
+      {posts.map((post) => (
+        <div className="col-lg-4 col-md-4 col-sm-6 blog-item" key={post.id}>
+          <div className="blog animate-box">
             <a href={`/blog/` + post.id}>
-              <img class="img-responsive" src={post.img} alt="" />
+              <img
+                className="img-responsive"
+                src={post.image}
+                alt=""
+              />
             </a>
-            <div class="blog-text">
-              <div class="prod-title">
+            <div className="blog-text">
+              <div className="prod-title">
                 <h3>
                   <a href={`/blog/` + post.id}>{post.title}</a>
                 </h3>
-                <span class="posted_by">{post.date}</span>
+                <span className="posted_by">{post.date}</span>
                 <p>{post.content.slice(0, 120) + "..."}</p>
                 <p>
                   <a href={`/blog/` + post.id}>Learn More...</a>
@@ -29,14 +52,14 @@ const Blog = () => {
   );
   return (
     <div id="blog-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8 col-md-offset-2 text-center heading-section animate-box">
             <h3>Our students' stories</h3>
           </div>
         </div>
       </div>
-      <div class="container">{blog}</div>
+      <div className="container">{blog}</div>
     </div>
   );
 };

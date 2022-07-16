@@ -3,19 +3,19 @@ import "./OurGoals.css";
 const OurGoals = () => {
   return (
     <div id="objectives-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 text-center animate-box">
-            <h3 class="mission-title">Our long term objectives</h3>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8 col-md-offset-2 text-center animate-box">
+            <h3 className="mission-title">Our long term objectives</h3>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-4 col-sm-6">
-            <div class="services animate-box">
+      <div className="container">
+        <div className="row text-center">
+          <div className="col-md-4 col-sm-6">
+            <div className="services animate-box">
               <span>
-                <i class="fa fa-users fa-lg"></i>
+                <i className="fa fa-users fa-lg"></i>
               </span>
               <h3>Counselling</h3>
               <p>
@@ -24,10 +24,10 @@ const OurGoals = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="services animate-box">
+          <div className="col-md-4 col-sm-6">
+            <div className="services animate-box">
               <span>
-                <i class="fa fa-money fa-lg"></i>
+                <i className="fa fa-money fa-lg"></i>
               </span>
               <h3>Financial Aid</h3>
               <p>
@@ -38,10 +38,10 @@ const OurGoals = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="services animate-box">
+          <div className="col-md-4 col-sm-6">
+            <div className="services animate-box">
               <span>
-                <i class="fa fa-briefcase fa-lg"></i>
+                <i className="fa fa-briefcase fa-lg"></i>
               </span>
               <h3>Sharing experience</h3>
               <p>
@@ -51,19 +51,19 @@ const OurGoals = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="services animate-box">
+          <div className="col-md-4 col-sm-6">
+            <div className="services animate-box">
               <span>
-                <i class="fa fa-graduation-cap fa-lg"></i>
+                <i className="fa fa-graduation-cap fa-lg"></i>
               </span>
               <h3>Education</h3>
               <p>To advocate for teaching improvement and digital learning</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="services animate-box">
+          <div className="col-md-4 col-sm-6">
+            <div className="services animate-box">
               <span>
-                <i class="fa fa-heart fa-lg"></i>
+                <i className="fa fa-heart fa-lg"></i>
               </span>
               <h3>Volunteering</h3>
               <p>To promote volunteerism spirit for community works</p>

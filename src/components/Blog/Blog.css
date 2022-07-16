@@ -94,3 +94,7 @@ a {
 .heading-section p {
   font-size: 20px;
 }
+
+.blog-item {
+  height: 700px;
+}

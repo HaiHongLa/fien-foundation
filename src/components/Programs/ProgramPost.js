@@ -1,19 +1,16 @@
-// import Posts from "./Posts";
-import "./BlogPost.css";
-import { useState, useEffect, useCallback } from "react";
+import "./ProgramPost.css";
+import { useState, useCallback, useEffect } from "react";
 
-
-const BlogPost = (props) => {
+const ProgramPost = (props) => {
   const [post, setPost] = useState({
     id: "",
     title: "",
-    date: "",
     content: "",
     image: "",
   });
   const [readMore, setReadMore] = useState([]);
   const fetchPost = useCallback(async () => {
-    const response = await fetch("http://127.0.0.1:8000/blog/");
+    const response = await fetch("http://127.0.0.1:8000/programs/");
     const data = await response.json();
     let rm = [];
     for (const p in data) {
@@ -23,7 +20,6 @@ const BlogPost = (props) => {
         rm.push({
           id: data[p].id,
           title: data[p].title,
-          date: data[p].date,
           content: data[p].content,
           image: data[p].image,
         });
@@ -37,28 +33,31 @@ const BlogPost = (props) => {
   }, [fetchPost]);
 
   return (
-    <div className="blog-post">
+    <div className="program-post">
       <div id="header">
         <h1>{post.title}</h1>
       </div>
-      <h4 className="post-date">{post.date}</h4>
       <div id="wrapper">
         <div className="row">
-          <div className="col-md-9">
+          <div className="col-md-9 col-lg-9 col-sm-12">
             <div id="content">
               <div className="text-center">
-                <img className="ss-image" src={post.image} alt="ss1" />
+                <img
+                  className="ss-image program-img"
+                  src={post.image}
+                  alt={post.title}
+                />
               </div>
               <p>{post.content}</p>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-lg-3 col-sm-12">
             <div id="navigation">
-              <h4 className="read-more text-center">Read more stories</h4>
+              <h3 className="read-more">Other programs</h3>
               <ul className="more-stories text-center">
                 {readMore.map((post) => (
                   <li key={post.id}>
-                    <a href={`/blog/` + post.id}>{post.title}</a>
+                    <a href={`/programs/` + post.id}>{post.title}</a>
                   </li>
                 ))}
               </ul>
@@ -69,5 +68,4 @@ const BlogPost = (props) => {
     </div>
   );
 };
-
-export default BlogPost;
+export default ProgramPost;

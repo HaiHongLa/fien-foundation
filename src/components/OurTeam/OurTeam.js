@@ -1,89 +1,63 @@
-import React from "react";
+import React, { useState } from "react";
 import "./OurTeam.css";
-import MG from "../../assets/img/team/GEORGE MAGESSA.png";
-import AK from "../../assets/img/team/AMINA KIRETI.png"
-import LN from '../../assets/img/team/LWIZA NSUMBA.png'
-import MC from '../../assets/img/team/MARIA CHARLES.png'
-import NS from '../../assets/img/team/NESTORY SALIKA.png'
-import SS from '../../assets/img/team/SWIDEFRIDA SAKIA.png'
-import BM from '../../assets/img/team/BERTHA MBUYA.png'
-
+import { useEffect } from "react";
 
 const OurTeam = () => {
+  const [memberComp, setMemberComp] = useState(<React.Fragment />);
+  async function memberHandler() {
+    try {
+      const response = await fetch("http://127.0.0.1:8000/members/");
+      if (!response.ok) {
+        throw new Error("An error occurred");
+      }
+      const data = await response.json();
+      let memberLists = [];
+      for (let i = 0; i < data.length; i = i + 4) {
+        if (i + 4 < data.length) {
+          memberLists.push(data.slice(i, i + 4));
+        } else {
+          memberLists.push(data.slice(i, data.length));
+        }
+      }
+      let memComp = memberLists.map((l) => {
+        return (
+          <ul key={Math.random()} className="row">
+            {l.map((member) => {
+              return (
+                <li className="col-12 col-md-6 col-lg-3" key={member.id}>
+                  <div
+                    className="cnt-block equal-hight"
+                    style={{ height: "349px" }}
+                  >
+                    <figure>
+                      <img src={member.image} className="img-responsive" alt="" />
+                    </figure>
+                    <h3>{member.name}</h3>
+                    <p>{member.title}</p>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        );
+      });
+      setMemberComp(memComp);
+    } catch (error) {
+      console.log(error.message);
+    }
+  }
+  useEffect(() => {
+    memberHandler();
+  }, []);
+
   return (
-    <section id="team" class="our-team padding-lg">
+    <section id="team" className="our-team padding-lg">
       <div id="our-team"></div>
-      <div class="container">
-        <div class="row heading heading-icon">
+      <div className="container-fluid">
+        <div className="row heading heading-icon">
           <h2>Meet our team</h2>
         </div>
-        <ul class="row">
-          <li class="col-12 col-md-6 col-lg-3">
-            <div class="cnt-block equal-hight" style={{ height: "349px" }}>
-              <figure>
-                <img src={MG} class="img-responsive" alt="" />
-              </figure>
-              <h3>Magessa George</h3>
-              <p>CEO and Founder</p>
-            </div>
-          </li>
-          <li class="col-12 col-md-6 col-lg-3">
-            <div class="cnt-block equal-hight" style={{ height: "349px" }}>
-              <figure>
-                <img src={MC} class="img-responsive" alt="" />
-              </figure>
-              <h3>Maria Charles</h3>
-              <p>Director of Remote Teaching Service</p>
-            </div>
-          </li>
-          <li class="col-12 col-md-6 col-lg-3">
-            <div class="cnt-block equal-hight" style={{ height: "349px" }}>
-              <figure>
-                <img src={AK} class="img-responsive" alt="" />
-              </figure>
-              <h3>Amina Kireti</h3>
-              <p>Director of Internship and Employment Opportunities</p>
-            </div>
-          </li>
-          <li class="col-12 col-md-6 col-lg-3">
-            <div class="cnt-block equal-hight" style={{ height: "349px" }}>
-              <figure>
-                <img src={LN} class="img-responsive" alt="" />
-              </figure>
-              <h3>Lwisza Nsumba</h3>
-              <p>Director of Scholars Program</p>
-            </div>
-          </li>
-        </ul>
-        <ul class="row">
-          <li class="col-12 col-md-6 col-lg-3">
-            <div class="cnt-block equal-hight" style={{ height: "349px" }}>
-              <figure>
-                <img src={NS} class="img-responsive" alt="" />
-              </figure>
-              <h3>Nestory Salika</h3>
-              <p>Director of Digital Teachers Exchange Program</p>
-            </div>
-          </li>
-          <li class="col-12 col-md-6 col-lg-3">
-            <div class="cnt-block equal-hight" style={{ height: "349px" }}>
-              <figure>
-                <img src={SS} class="img-responsive" alt="" />
-              </figure>
-              <h3>Swidefrida Sakia</h3>
-              <p>Chief of Finance</p>
-            </div>
-          </li>
-          <li class="col-12 col-md-6 col-lg-3">
-            <div class="cnt-block equal-hight" style={{ height: "349px" }}>
-              <figure>
-                <img src={BM} class="img-responsive" alt="" />
-              </figure>
-              <h3>Bertha Mbuya</h3>
-              <p>Director of Inclusive Education</p>
-            </div>
-          </li>
-        </ul>
+        {memberComp}
       </div>
     </section>
   );

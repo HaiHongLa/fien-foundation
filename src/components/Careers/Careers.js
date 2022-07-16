@@ -1,11 +1,13 @@
 import "./Careers.css";
+import img from '../../assets/img/internship.jpg'
 
 const Careers = () => {
   return (
     <div id="careers">
-      <div class="row">
-        <div class="container careers-content">
+      <div className="row">
+        <div className="container careers-content">
           <h1>Volunteering and Internship Program</h1>
+          <img src={img} className="careers-img text-center" alt="internship" />
           <h2>About the program</h2>
           <ul>
             <li>
@@ -252,7 +254,7 @@ const Careers = () => {
           </ul>
           <h2>Virtual Volunteering/ Internship</h2>
           <h3>The following positions can be done virtually:</h3>
-          <ol class="virtual">
+          <ol className="virtual">
             <li>Web development</li>
             <li>Content creation</li>
             <li>Grant writing</li>

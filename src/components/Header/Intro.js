@@ -6,7 +6,7 @@ const Intro = () => {
       <div className="overlay">
         <div className="container">
           <div className="row">
-            <div class="intro-text">
+            <div className="intro-text">
               <h2>Donate to support students in need</h2>
               <a
                 id="donate-btn"
