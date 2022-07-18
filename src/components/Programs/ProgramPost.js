@@ -10,7 +10,9 @@ const ProgramPost = (props) => {
   });
   const [readMore, setReadMore] = useState([]);
   const fetchPost = useCallback(async () => {
-    const response = await fetch("http://127.0.0.1:8000/programs/");
+    const response = await fetch(
+      "https://fien-backend.herokuapp.com/programs/"
+    );
     const data = await response.json();
     let rm = [];
     for (const p in data) {

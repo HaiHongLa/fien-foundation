@@ -6,7 +6,7 @@ const Blog = () => {
   const [posts, setPosts] = useState([])
   async function blogHandler() {
     try {
-      const response = await fetch("http://127.0.0.1:8000/blog/");
+      const response = await fetch("https://fien-backend.herokuapp.com/blog/");
       if (!response.ok) {
         throw new Error("An error occurred");
       }

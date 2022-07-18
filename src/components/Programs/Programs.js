@@ -5,7 +5,9 @@ const Programs = () => {
   const [posts, setPosts] = useState([]);
   async function programHandler() {
     try {
-      const response = await fetch("http://127.0.0.1:8000/programs/");
+      const response = await fetch(
+        "https://fien-backend.herokuapp.com/programs/"
+      );
       if (!response.ok) {
         throw new Error("An error occurred");
       }

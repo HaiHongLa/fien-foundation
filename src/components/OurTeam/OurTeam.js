@@ -6,7 +6,9 @@ const OurTeam = () => {
   const [memberComp, setMemberComp] = useState(<React.Fragment />);
   async function memberHandler() {
     try {
-      const response = await fetch("http://127.0.0.1:8000/members/");
+      const response = await fetch(
+        "https://fien-backend.herokuapp.com/members/"
+      );
       if (!response.ok) {
         throw new Error("An error occurred");
       }
