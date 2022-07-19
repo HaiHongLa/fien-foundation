@@ -20,7 +20,7 @@ const OurGoals = () => {
               <h3>Counselling</h3>
               <p>
                 To strengthen leadership skills and facilitate the conduct of
-                counselling and career guidance to students
+                counseling and career guidance to students
               </p>
             </div>
           </div>
@@ -31,10 +31,9 @@ const OurGoals = () => {
               </span>
               <h3>Financial Aid</h3>
               <p>
-                To provide financial aid to needy students for transport fare,
-                health insurance, stationery, school uniforms and sanitization
-                towels for girls so that they can raise their classroom
-                attendance rate
+                To provide financial aid to students for transport fares, health
+                insurance, stationery, school uniforms, and sanitization towels
+                for girls to raise classroom attendance rate
               </p>
             </div>
           </div>
