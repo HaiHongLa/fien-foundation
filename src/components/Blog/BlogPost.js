@@ -44,7 +44,7 @@ const BlogPost = (props) => {
       <h4 className="post-date">{post.date}</h4>
       <div id="wrapper">
         <div className="row">
-          <div className="col-md-9">
+          <div className="col-md-9 col-lg-9 col-sm-12">
             <div id="content">
               <div className="text-center">
                 <img className="ss-image" src={post.image} alt="ss1" />
@@ -52,7 +52,7 @@ const BlogPost = (props) => {
               <p>{post.content}</p>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-lg-3 col-sm-12">
             <div id="navigation">
               <h4 className="read-more text-center">Read more stories</h4>
               <ul className="more-stories text-center">

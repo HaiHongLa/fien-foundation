@@ -15,8 +15,8 @@ const Intro = () => {
               >
                 Donate now
               </a>
-              <p>
-                Every needy students deserves the opportunity to learn and
+              <p className="text-center">
+                Every students in need deserve the opportunity to learn and
                 prosper
               </p>
             </div>
