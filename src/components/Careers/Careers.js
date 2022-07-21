@@ -268,7 +268,7 @@ const Careers = () => {
             the duration of volunteering/ internship, also a position of your
             interest.
           </p>
-          <p>Email: info.fienfoundation@gmail.com</p>
+          <p>Email: info@fienfoundation.org</p>
           <p>Phone: +255784898567</p>
         </div>
       </div>
