@@ -24,8 +24,8 @@ const AboutUs = () => {
                     student (FIEN)
                   </p>
                   <p>
-                    We seek a nation where every needy student has an
-                    opportunity to achieve a better education outcome
+                    We seek a nation where every student has an opportunity to
+                    achieve a better education outcome
                   </p>
                 </div>
               </div>
@@ -46,7 +46,7 @@ const AboutUs = () => {
                   <div className="section-text2">
                     <p>
                       We operate in Tanzania Mainland, East Africa, and our
-                      headquarters are in Morogoro Municipality. The
+                      headquarters are in Morogoro Municipality. The the
                       organization started as an initiative in 2015, and
                       officially was registered as a non-government organization
                       in August 2019 with a registration number 00NGO/R/0323

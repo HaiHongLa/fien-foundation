@@ -1,5 +1,5 @@
 import "./Careers.css";
-import img from '../../assets/img/internship2.jpg'
+import img from "../../assets/img/internship2.jpg";
 
 const Careers = () => {
   return (
@@ -47,16 +47,16 @@ const Careers = () => {
               organization and partner schools in Tanzania.
             </li>
             <li>
-              Professionals, students, and recent graduates who are interested
-              in undertaking an internship in Tanzanian organizations are
-              eligible for the program.
+              Professionals, students, and interested recent graduates in
+              undertaking an internship in Tanzanian organizations are eligible
+              for the program.
             </li>
           </ul>
           <h2>Volunteering/Internship period</h2>
           <ul>
             <li>
               The duration of volunteering/ internship is up to 3 months for
-              students (Summer, Fall and Spring). However, individual students
+              students (Summer, Fall, and Spring). However, individual students
               or professionals can undertake internship from 1- 12 months, start
               from any month, except in December.
             </li>
@@ -64,8 +64,8 @@ const Careers = () => {
           <h2>Application deadline</h2>
           <ul>
             <li>
-              There is no application deadline, we accept application throughout
-              the year.
+              There is no application deadline, we accept applications
+              throughout the year.
             </li>
           </ul>
           <h2>Internship/Volunteering Positions</h2>
@@ -80,7 +80,7 @@ const Careers = () => {
               </li>
               <li>
                 Organize online campaigns through emails, social media, website,
-                google, and social media ads that will lead to donations.
+                Google, and social media ads that will lead to donations.
               </li>
               <li>Report writing</li>
             </ul>
@@ -89,11 +89,10 @@ const Careers = () => {
             <h3>Responsibilities:</h3>
             <ul>
               <li>
-                Set up hardware and installing and configure software and
-                drivers.
+                Set up hardware and install and configure software and drivers.
               </li>
               <li>
-                Maintain and repairing technological equipment (e.g. routers) or
+                Maintain and repair technological equipment (e.g. routers) or
                 peripheral devices
               </li>
               <li>
@@ -118,7 +117,7 @@ const Careers = () => {
             <h3>Responsibilities:</h3>
             <ul>
               <li>
-                Teach computer application to students and teachers (basic
+                Teach computer applications to students and teachers (basic
                 skills on word process and spreadsheet).
               </li>
             </ul>
@@ -131,15 +130,15 @@ const Careers = () => {
                 interested in sports.
               </li>
               <li>
-                Plan different recreational activities important for growth of
-                students.
+                Plan different recreational activities important for the growth
+                of students.
               </li>
               <li>
                 Co-ordinate the game programs, including extra-curricular
                 activities.
               </li>
               <li>
-                Teach various physical exercises, games and sport to students
+                Teach various physical exercises, games, and sports to students
                 and teachers.
               </li>
             </ul>
@@ -151,9 +150,9 @@ const Careers = () => {
                 FIEN Foundation offers intern opportunities for English and
                 Science teachers. The interns will teach English and Science
                 subjects in public schools in Morogoro Municipality, Tanzania.
-                The primary schools have pupils with age from 6 to 15 years
-                (standard I-VII). While secondary schools have students with the
-                age 16-18 years (form I-IV).
+                The primary schools have pupils aged from 6 to 15 years
+                (standard I-VII). While secondary schools have students aged
+                16-18 years (form I-IV).
               </li>
             </ul>
 
@@ -161,7 +160,7 @@ const Careers = () => {
             <h3>Responsibilities:</h3>
             <ul>
               <li>
-                Write well designed, testable, efficient code by using best
+                Write well-designed, testable, efficient code by using best
                 software development practices.
               </li>
               <li>
@@ -181,8 +180,8 @@ const Careers = () => {
             <h3>Responsibilities:</h3>
             <ul>
               <li>
-                Work with the organization managed to get an understanding of
-                the short-term and long term marketing targets and then develop
+                Working with the organization managed to get an understanding of
+                the short-term and long-term marketing targets and then develop
                 content strategies accordingly.
               </li>
               <li>
@@ -190,14 +189,15 @@ const Careers = () => {
               </li>
               <li>
                 Optimize Search Engine Optimization driven content and increase
-                the site traffic.
+                site traffic.
               </li>
               <li>
                 Measuring and monitoring organization website and social media
                 traffic statistics.
               </li>
               <li>
-                Update the website, social media and content pages periodically.
+                Update the website, social media, and content pages
+                periodically.
               </li>
             </ul>
 
@@ -223,7 +223,7 @@ const Careers = () => {
               </li>
               <li>
                 Offer timely technical support and teach users how to utilize
-                database correctly.
+                the database correctly.
               </li>
             </ul>
 
@@ -232,7 +232,7 @@ const Careers = () => {
             <ul>
               <li>
                 Support the entire application lifecycle (concept, design, test,
-                release and support).
+                release, and support).
               </li>
               <li>
                 Produce fully functional mobile applications writing clean code.
@@ -241,15 +241,15 @@ const Careers = () => {
               <li>Write unit and UI tests to identify malfunctions.</li>
               <li>Troubleshoot and debug to optimize performance.</li>
               <li>Design interfaces to improve user experience.</li>
-              <li>Liaise with management team to plan new features.</li>
+              <li>Liaise with the management team to plan new features.</li>
             </ul>
           </ol>
           <h2>Other volunteering/Internship Positions</h2>
           <ul>
             <li>
-              If you have not seen position from the list fitting your area of
-              interest you can email us so that we can help you to get position
-              in other local organizations.
+              If you have not seen a position from the list fitting your area of
+              the interest you can email us so that we can help you to get a
+              position in other local organizations.
             </li>
           </ul>
           <h2>Virtual Volunteering/ Internship</h2>
@@ -263,9 +263,10 @@ const Careers = () => {
           </ol>
           <h2>How do I apply?</h2>
           <p>
-            Send your cover letter and resume direct to FIEN Foundation through
-            the email address. In the cover letter you should include duration
-            of volunteering/ internship, also position of your interest.
+            Send your cover letter and resume directly to FIEN Foundation
+            through the email address. In the cover letter, you should include
+            the duration of volunteering/ internship, also a position of your
+            interest.
           </p>
           <p>Email: info.fienfoundation@gmail.com</p>
           <p>Phone: +255784898567</p>
