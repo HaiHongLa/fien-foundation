@@ -13,6 +13,10 @@ const Footer = () => {
               <i className="fa fa-facebook-official"></i>
             </a>
           </div>
+          <div className="container">
+            <p className="text-center">Email: <a href="mailto:info@fienfoundation.org">info@fienfoundation.org</a></p>
+            <p className="text-center">Tel: +255784898567</p>
+          </div>
           <ul className="list-inline">
             <li className="list-inline-item">
               <a href="/">Home</a>

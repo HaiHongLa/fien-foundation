@@ -6,8 +6,8 @@ const HeaderTop = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-sm-6 text-left header-link">
-            <a href="https://www.givingway.com/donate/fien-foundation">
-              Donate now
+            <a href="mailto:info@fienfoundation.org">
+              Contact us: info@fienfoundation.org
             </a>
           </div>
           <div className="col-md-6 col-sm-6 text-right header-social">

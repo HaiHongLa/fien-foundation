@@ -69,6 +69,11 @@ const Header = () => {
                   Programs
                 </a>
               </li>
+              <li>
+                <a id="nav-link" href="#footer">
+                  Contact Us
+                </a>
+              </li>
             </ul>
           </div>
         </div>
