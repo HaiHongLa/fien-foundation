@@ -18,7 +18,7 @@ const OurGoals = () => {
                 <i className="fa fa-users fa-lg"></i>
               </span>
               <h3>Counselling</h3>
-              <p>
+              <p className="text-center">
                 To strengthen leadership skills and facilitate the conduct of
                 counseling and career guidance to students
               </p>
@@ -30,7 +30,7 @@ const OurGoals = () => {
                 <i className="fa fa-money fa-lg"></i>
               </span>
               <h3>Financial Aid</h3>
-              <p>
+              <p className="text-center">
                 To provide financial aid to students for transport fares, health
                 insurance, stationery, school uniforms, and sanitization towels
                 for girls to raise classroom attendance rate
@@ -43,7 +43,7 @@ const OurGoals = () => {
                 <i className="fa fa-briefcase fa-lg"></i>
               </span>
               <h3>Sharing experience</h3>
-              <p>
+              <p className="text-center">
                 To facilitate the availability of internship, project work and
                 teacher exchange programs aiming at sharing experiences and
                 expertise
@@ -56,7 +56,9 @@ const OurGoals = () => {
                 <i className="fa fa-graduation-cap fa-lg"></i>
               </span>
               <h3>Education</h3>
-              <p>To advocate for teaching improvement and digital learning</p>
+              <p className="text-center">
+                To advocate for teaching improvement and digital learning
+              </p>
             </div>
           </div>
           <div className="col-md-4 col-sm-6">
@@ -65,7 +67,9 @@ const OurGoals = () => {
                 <i className="fa fa-heart fa-lg"></i>
               </span>
               <h3>Volunteering</h3>
-              <p>To promote volunteerism spirit for community works</p>
+              <p className="text-center">
+                To promote volunteerism spirit for community works
+              </p>
             </div>
           </div>
         </div>
