@@ -30,4 +30,4 @@ yarn-error.log*
 ### Firebase Patch ###
 .runtimeconfig.json
 .firebase/
-notes.txt
+deploy-notes.txt
