@@ -20,24 +20,24 @@ const AboutUs = () => {
                 </div>
                 <div className="section-text">
                   <p>
-                    We are a nonprofit organization seeking to improve education
-                    outcome of the needy students in Tanzania. We have a dream
-                    to see a nation where every student has an opportunity to
-                    achieve a better education outcome regardless his or her
-                    financial background.
+                    We are a nonprofit organization seeking to improve the
+                    educational outcomes of needy students in Tanzania. We have
+                    a dream of seeing a nation where every student has an
+                    opportunity to achieve a better educational outcome
+                    regardless of his or her financial background.
                   </p>
                   <p>
-                    Our work is guided by its mission to improve education
-                    outcome of the needy students. FIEN Foundation is one of the
-                    foundations in Tanzania, it works almost exclusively in
+                    Our work is guided by its mission to improve the educational
+                    outcomes of needy students. The FIEN Foundation is one of
+                    the foundations in Tanzania. It works almost exclusively in
                     Tanzania main land. It was founded in 2015 by Magessa
                     George, a Tanzanian educationist and researcher.
                   </p>
                   <p>
                     The organization was officially registered in 2019 as a
-                    non-government organization with a registration number
-                    00NGO/R/0323, and it operates independently under the
-                    governance of its own Management Team.
+                    non-government organization (00NGO/R/0323), and it operates
+                    independently under the governance of its own management
+                    team.
                   </p>
                 </div>
               </div>
@@ -57,36 +57,25 @@ const AboutUs = () => {
                   </div>
                   <div className="section-text2">
                     <p>
-                      We operate in Tanzania Mainland, and our headquarters are
+                      We operate in Tanzania mainland, and our headquarters are
                       in Morogoro Municipality. Tanzania is a country in East
-                      Africa within the African Great Lakes region. It borders
-                      Uganda to the north; Kenya to the northeast; Comoro
-                      Islands and the Indian Ocean to the east. Mount
-                      Kilimanjaro, Africa's highest mountain, is in northeastern
-                      Tanzania.
+                      Africa within the African Great Lakes region.
                     </p>
                     <p>
                       The out-of-school rate is still very high in Tanzania,
-                      with 6.7 million among children, adolescents and youth of
-                      primary and secondary school age being out of school, with
-                      girls lagging behind boys in the transition from primary
-                      to secondary education in 2017 (UNESCO, 2018).
+                      with more than 6.7 million children of primary and
+                      secondary school age being out of school, with girls
+                      lagging behind boys in the transition from primary to
+                      secondary education.
                     </p>
                     <p>
-                      Children out of school (% of primary school age) in
-                      Tanzania was also reported at 16.08 % in 2020 (World Bank,
-                      2021).
-                    </p>
-                    <p>
-                      Poverty has been one of the reasons for increasing number
-                      of school aged children to drop out of school or to fail
-                      joining primary and secondary education in Tanzania.
-                      Therefore, failure of children from disadvantaged
-                      background to join school or continue with education is
-                      the main reason for operating in Tanzania so as to help
-                      the government to increase the number of children
-                      accessing primary and secondary education, and improving
-                      their education outcome.
+                      Poverty has been one of the reasons for an increasing
+                      number of school-aged children dropping out of school or
+                      failing to attend primary and secondary education in
+                      Tanzania. For that reason, we are operating in Tanzania to
+                      help the government increase the number of children
+                      accessing primary and secondary education and improve
+                      their educational outcomes.
                     </p>
                     <p></p>
                   </div>
