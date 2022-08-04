@@ -1,5 +1,5 @@
 import "./Careers.css";
-import img from "../../assets/img/internship2.jpg";
+import img from "../../assets/img/internship3.jpg";
 
 const Careers = () => {
   return (
