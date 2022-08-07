@@ -54,7 +54,7 @@ const OurGoals = () => {
               <span>
                 <i className="fa fa-graduation-cap fa-lg"></i>
               </span>
-              <h3>Education</h3>
+              <h3>Digital Teaching</h3>
               <p className="text-center">
                 Advocating the use of digital technology for effective teaching
                 and learning by equipping schools with ICT facilities.
