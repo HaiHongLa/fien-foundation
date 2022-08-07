@@ -19,8 +19,8 @@ const OurGoals = () => {
               </span>
               <h3>Counselling</h3>
               <p className="text-center">
-                To strengthen leadership skills and facilitate the conduct of
-                counseling and career guidance to students
+                Strengthening students’ leadership skills, and facilitating the
+                conduct of counselling and career guidance to needy students.
               </p>
             </div>
           </div>
@@ -31,9 +31,8 @@ const OurGoals = () => {
               </span>
               <h3>Financial Aid</h3>
               <p className="text-center">
-                To provide financial aid to students for transport fares, health
-                insurance, stationery, school uniforms, and sanitization towels
-                for girls to raise classroom attendance rate
+                Providing financial aid to students whose talent and promise
+                exceed their financial resources to complete their education.
               </p>
             </div>
           </div>
@@ -44,9 +43,9 @@ const OurGoals = () => {
               </span>
               <h3>Sharing experience</h3>
               <p className="text-center">
-                To facilitate the availability of internship, project work and
-                teacher exchange programs aiming at sharing experiences and
-                expertise
+                Facilitating the availability of internship, research and
+                teacher exchange programs for purpose of sharing experience and
+                expertise.
               </p>
             </div>
           </div>
@@ -57,7 +56,8 @@ const OurGoals = () => {
               </span>
               <h3>Education</h3>
               <p className="text-center">
-                To advocate for teaching improvement and digital learning
+                Advocating the use of digital technology for effective teaching
+                and learning by equipping schools with ICT facilities.
               </p>
             </div>
           </div>
@@ -68,7 +68,8 @@ const OurGoals = () => {
               </span>
               <h3>Volunteering</h3>
               <p className="text-center">
-                To promote volunteerism spirit for community works
+                Leveraging the recruit of volunteers to harness their skills and
+                support for improving educational outcomes of needy students.
               </p>
             </div>
           </div>

@@ -20,24 +20,23 @@ const AboutUs = () => {
                 </div>
                 <div className="section-text">
                   <p>
-                    We are a nonprofit organization seeking to improve the
-                    educational outcomes of needy students in Tanzania. We have
-                    a dream of seeing a nation where every student has an
-                    opportunity to achieve a better educational outcome
+                    Foundation for Improving Education Outcome of Needy Students
+                    (FIEN Foundation) is a non-governmental organisation with a
+                    VISION to build a nation in which every student has the
+                    opportunity to achieve better educational outcomes
                     regardless of his or her financial background.
                   </p>
                   <p>
-                    Our work is guided by its mission to improve the educational
-                    outcomes of needy students. The FIEN Foundation is one of
-                    the foundations in Tanzania. It works almost exclusively in
-                    Tanzania main land. It was founded in 2015 by Magessa
-                    George, a Tanzanian educationist and researcher.
+                    FIEN Foundation is one of the non-governmental organisations
+                    in Tanzania with registration No. 00NGO/R/0323. The
+                    organisation was founded in 2019 by Magessa George, a
+                    Tanzanian educationist and researcher.
                   </p>
                   <p>
-                    The organization was officially registered in 2019 as a
-                    non-government organization (00NGO/R/0323), and it operates
-                    independently under the governance of its own management
-                    team.
+                    The MISSION of the organisation is to enable needy students
+                    in Tanzania to achieve a better educational outcome by
+                    removing the barriers to school attendance and hindrances to
+                    quality education.
                   </p>
                 </div>
               </div>
