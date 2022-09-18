@@ -24,8 +24,9 @@ const AboutUs = () => {
                     Needy Students (FIEN Foundation) in Tanzania, Africa.
                   </p>
                   <p>
-                    We are the Foundation for Improving Education Outcomes of
-                    Needy Students (FIEN Foundation) in Tanzania, Africa.
+                    FIEN Foundation was founded in 2019 and officially
+                    registered in Tanzania as a non-government organisation with
+                    registration No. 00NGO/R/0323.
                   </p>
                   <p>
                     OUR VISION: To build a nation in which every student has the
