@@ -20,23 +20,22 @@ const AboutUs = () => {
                 </div>
                 <div className="section-text">
                   <p>
-                    Foundation for Improving Education Outcome of Needy Students
-                    (FIEN Foundation) is a non-governmental organisation with a
-                    VISION to build a nation in which every student has the
-                    opportunity to achieve better educational outcomes
-                    regardless of his or her financial background.
+                    We are the Foundation for Improving Education Outcomes of
+                    Needy Students (FIEN Foundation) in Tanzania, Africa.
                   </p>
                   <p>
-                    FIEN Foundation is one of the non-governmental organisations
-                    in Tanzania with registration No. 00NGO/R/0323. The
-                    organisation was founded in 2019 by Magessa George, a
-                    Tanzanian educationist and researcher.
+                    We are the Foundation for Improving Education Outcomes of
+                    Needy Students (FIEN Foundation) in Tanzania, Africa.
                   </p>
                   <p>
-                    The MISSION of the organisation is to enable needy students
-                    in Tanzania to achieve a better educational outcome by
-                    removing the barriers to school attendance and hindrances to
-                    quality education.
+                    OUR VISION: To build a nation in which every student has the
+                    opportunity to achieve a better education outcome regardless
+                    of his or her financial background.
+                  </p>
+                  <p>
+                    OUR MISSION: To enable needy students in Tanzania to achieve
+                    better education outcomes by removing the barriers to school
+                    attendance and hindrances to quality education.
                   </p>
                 </div>
               </div>
@@ -83,10 +82,10 @@ const AboutUs = () => {
               <div className="col-xs-12 col-md-6 col-sm-12">
                 <div className="map">
                   <iframe
-                    id="ggmap"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126781.27000794112!2d37.61432175761521!3d-6.780237061060156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185a5dc00cee7437%3A0xf0e8f2f705ae1dd1!2sMorogoro%2C%20Tanzania!5e0!3m2!1svi!2s!4v1652947018708!5m2!1svi!2s"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126781.27000783371!2d37.61432191629007!3d-6.780237061469091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185a5dc00cee7437%3A0xf0e8f2f705ae1dd1!2sMorogoro%2C%20Tanzania!5e0!3m2!1sen!2s!4v1660804957898!5m2!1sen!2s"
                     loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    id="ggmap"
                     title="ggmap"
                   ></iframe>
                 </div>
