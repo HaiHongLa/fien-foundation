@@ -6,7 +6,7 @@ const Programs = () => {
   async function programHandler() {
     try {
       const response = await fetch(
-        "https://fien-backend.herokuapp.com/programs/"
+        `${process.env.REACT_APP_BACKEND_URL}/programs/`
       );
       if (!response.ok) {
         throw new Error("An error occurred");
@@ -27,7 +27,11 @@ const Programs = () => {
         <div key={post.id} className="col-lg-4 col-md-4 col-sm-6 program-item">
           <div className="program animate-box">
             <a href={`/programs/` + post.id}>
-              <img className="img-responsive" src={post.image} alt="" />
+              <img
+                className="img-responsive"
+                src={"https://" + post.image}
+                alt=""
+              />
             </a>
             <div className="program-text">
               <div className="prod-title">
@@ -57,9 +61,7 @@ const Programs = () => {
           </div>
         </div>
       </div>
-      <div className="container">
-        {programs}
-      </div>
+      <div className="container">{programs}</div>
     </div>
   );
 };

@@ -6,8 +6,11 @@ const OurTeam = () => {
   const [memberComp, setMemberComp] = useState(<React.Fragment />);
   async function memberHandler() {
     try {
+      // const response = await fetch(
+      //   "https://fien-backend.herokuapp.com/members/"
+      // );
       const response = await fetch(
-        "https://fien-backend.herokuapp.com/members/"
+        `${process.env.REACT_APP_BACKEND_URL}/members/`
       );
       if (!response.ok) {
         throw new Error("An error occurred");
@@ -32,7 +35,11 @@ const OurTeam = () => {
                     style={{ height: "349px" }}
                   >
                     <figure>
-                      <img src={member.image} className="img-responsive" alt="" />
+                      <img
+                        src={"https://" + member.image}
+                        className="img-responsive"
+                        alt=""
+                      />
                     </figure>
                     <h3>{member.name}</h3>
                     <p>{member.title}</p>

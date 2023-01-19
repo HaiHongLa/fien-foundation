@@ -6,7 +6,10 @@ const Blog = () => {
   const [posts, setPosts] = useState([])
   async function blogHandler() {
     try {
-      const response = await fetch("https://fien-backend.herokuapp.com/blog/");
+      // const response = await fetch("https://fien-backend.herokuapp.com/blog/");
+      const response = await fetch(
+        `${process.env.REACT_APP_BACKEND_URL}/blog/`
+      );
       if (!response.ok) {
         throw new Error("An error occurred");
       }
@@ -20,6 +23,8 @@ const Blog = () => {
     blogHandler()
   }, []);
 
+
+  console.log(posts);
   
   const blog = (
     <div className="row row-bottom-padded-md">
@@ -29,7 +34,7 @@ const Blog = () => {
             <a href={`/blog/` + post.id}>
               <img
                 className="img-responsive"
-                src={post.image}
+                src={'https://' + post.image}
                 alt=""
               />
             </a>

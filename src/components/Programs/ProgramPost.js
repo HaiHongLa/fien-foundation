@@ -10,9 +10,12 @@ const ProgramPost = (props) => {
   });
   const [readMore, setReadMore] = useState([]);
   const fetchPost = useCallback(async () => {
-    const response = await fetch(
-      "https://fien-backend.herokuapp.com/programs/"
-    );
+    // const response = await fetch(
+    //   "https://fien-backend.herokuapp.com/programs/"
+    // );
+        const response = await fetch(
+          `${process.env.REACT_APP_BACKEND_URL}/programs/`
+        );
     const data = await response.json();
     let rm = [];
     for (const p in data) {
@@ -46,7 +49,7 @@ const ProgramPost = (props) => {
               <div className="text-center">
                 <img
                   className="ss-image program-img"
-                  src={post.image}
+                  src={"https://" + post.image}
                   alt={post.title}
                 />
               </div>

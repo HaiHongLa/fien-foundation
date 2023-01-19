@@ -13,7 +13,8 @@ const BlogPost = (props) => {
   });
   const [readMore, setReadMore] = useState([]);
   const fetchPost = useCallback(async () => {
-    const response = await fetch("https://fien-backend.herokuapp.com/blog/");
+    // const response = await fetch("https://fien-backend.herokuapp.com/blog/");
+    const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/blog/`);
     const data = await response.json();
     let rm = [];
     for (const p in data) {
@@ -47,7 +48,7 @@ const BlogPost = (props) => {
           <div className="col-md-9 col-lg-9 col-sm-12">
             <div id="content">
               <div className="text-center">
-                <img className="ss-image" src={post.image} alt="ss1" />
+                <img className="ss-image" src={'https://' + post.image} alt="ss1" />
               </div>
               <p>{post.content}</p>
             </div>
