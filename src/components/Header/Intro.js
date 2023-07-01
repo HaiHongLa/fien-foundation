@@ -11,7 +11,7 @@ const Intro = () => {
               <a
                 id="donate-btn"
                 className="btn btn-primary btn-lg"
-                href="https://www.givingway.com/donate/fien-foundation"
+                href="https://gogetfunding.com/health-insurance-for-the-needy-students-in-tanzania/"
               >
                 Donate now
               </a>
